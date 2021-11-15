@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-anydpi/ic_login.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_allbooks_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_copies_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_department_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_edition_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_isbn_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_pages_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_publish_focus.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xhdpi/ic_userAd.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xxxhdpi/ic_baseline_lock_24_focus.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xxxhdpi/ic_email_focus.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable-xxxhdpi/ic_name_focus.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/circle_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/circlebg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_bookname.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_card_bg_book.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_copies.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_depatment.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_editon.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_isbn.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_lock.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_mail.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_pages.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_publish.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custom_role.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custombutton1.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custombutton2.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custombuttonlogin.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/custominput1.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/customprogress.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/customuser.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/font.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/gradientaddbook.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/gradientadmin.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/gradientbackground.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/gradientbackgroundlogin.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_addphoto.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_allbooks.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_allnotification.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_allreservations.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_allusers.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_change.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_ebooks.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_edition.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_email.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_isbn.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_name.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_profilepic.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_publish.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_register.xml" value="0.2203125" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_signout.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_user_role.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_user_role_focus.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/style_spinner1.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_add_books.xml" value="0.1875" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_add_users.xml" value="0.25" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_books.xml" value="0.22" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_delete_users.xml" value="0.25" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_ebooks.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_edit_books.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_edit_users.xml" value="0.16" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_home.xml" value="0.25" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_notifications.xml" value="0.1875" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_reservations.xml" value="0.1875" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_users.xml" value="0.1859375" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_user_home.xml" value="0.16893115942028986" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/book_rv_item.xml" value="0.12105263157894737" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/bottom_sheet_dialog_user.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/fragment_descfreg.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/singlerow_book.xml" value="0.33" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/singlerow_user.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/style_spinner.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/menu/menu.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

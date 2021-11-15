@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddBooksActivity"
+    android:background="@drawable/gradientbackgroundlogin">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="UPDATE BOOKS"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_addphoto"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.174" />
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/bookname"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_bookname"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.364" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/auther"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/customuser"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Author(s)"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.481" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/contributors"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_depatment"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Contributors"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.594" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/publisher"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_publish"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Publisher"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.594" />
+
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/edition"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_editon"
+            android:fontFamily="@font/poppins"
+            android:hint="Edition"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.594" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/isbn"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_isbn"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="ISBN NO"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.594" />
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Wave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:SpinKit_Color="#07F11E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/style_spinner1"
+            android:fontFamily="@font/poppins"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.594"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Spinner
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/style_spinner1"
+            android:id="@+id/subject"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/copies"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_copies"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="No of Copies"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.837" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:id="@+id/tags"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custominput1"
+            android:drawableStart="@drawable/custom_pages"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="TAGS"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="#BDBDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.714" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/update"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custombuttonlogin"
+            android:drawableStart="@drawable/ic_change"
+            android:fontFamily="@font/poppins_semibold"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="UPDATE"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/green"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.961"
+            />
+            <Button
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/delete"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custombuttonlogin"
+                android:drawableStart="@drawable/ic_baseline_delete_forever_24"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:text="DELETE"
+                android:backgroundTint="@color/red"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.961"
+                />
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

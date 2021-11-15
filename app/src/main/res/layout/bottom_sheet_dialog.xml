@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradientadmin"
+    android:id="@+id/idRlBsheet">
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="Book Name"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/idIVbook"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/bookname"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/idbookAuthorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookname"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toRightOf="@id/idIVbook"
+        android:padding="3dp"
+        android:text="Author Name"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Category Name"
+        android:id="@+id/idbookCategory"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/idIVbook"
+        android:layout_below="@id/idbookAuthorname"
+        android:padding="3dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Category Name"
+        android:id="@+id/idbooksubject"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/idIVbook"
+        android:layout_below="@id/idbookCategory"
+        android:padding="3dp"
+        android:layout_margin="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/idIVbook"
+        >
+        <Button
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="4dp"
+            android:text="Edit Course"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:id="@+id/btnEdit"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

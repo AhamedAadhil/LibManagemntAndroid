@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LibraryManagementApp</string>
+    <string name="dont">Don\'t have an Account? Click here</string>
+    <string name="login">LOGIN</string>
+    <string name="pass">Password</string>
+    <string name="user">Username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
