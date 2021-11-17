@@ -63,6 +63,7 @@
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/ic_user_role_focus.xml" value="0.21197916666666666" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/drawable/style_spinner1.xml" value="0.21197916666666666" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_add_books.xml" value="0.1875" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_add_ebooks.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_add_users.xml" value="0.25" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_books.xml" value="0.22" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25" />
@@ -81,7 +82,10 @@
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/book_rv_item.xml" value="0.12105263157894737" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/bottom_sheet_dialog_user.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/content_admin_add_ebooks.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/fragment_descfreg.xml" value="0.19972826086956522" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/fragment_first.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/fragment_second.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/singlerow_book.xml" value="0.33" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/singlerow_user.xml" value="0.1897644927536232" />
         <entry key="..\:/Users/AADHIL/Desktop/ICT-PROJECT/App/app/src/main/res/layout/style_spinner.xml" value="0.17255434782608695" />
