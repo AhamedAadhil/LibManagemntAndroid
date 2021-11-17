@@ -28,12 +28,17 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Picasso;
+
+import java.util.Random;
 
 public class AdminAddEbooksActivity extends AppCompatActivity {
     private ImageView imageView;
@@ -58,6 +63,9 @@ public class AdminAddEbooksActivity extends AppCompatActivity {
         storageReferencepdf= FirebaseStorage.getInstance().getReference("ebook_pdfs");
         storageReferenceimg=FirebaseStorage.getInstance().getReference("ebook_images");
         databaseReference= FirebaseDatabase.getInstance().getReference("ebooks");
+
+
+
 
         imageView=findViewById(R.id.imageView2);
         bookname=findViewById(R.id.bookname);
@@ -107,11 +115,13 @@ public class AdminAddEbooksActivity extends AppCompatActivity {
 
                 if(TextUtils.isEmpty(Selected_category)||Selected_category==""||Selected_category==null||Selected_category==category_items[0]){
                     category.requestFocus();
+                    Toast.makeText(AdminAddEbooksActivity.this, "Please provide category of the book", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
                 if(TextUtils.isEmpty(Selected_subject)||Selected_subject==""||Selected_subject==null||Selected_subject==subject_items[0]){
                     subject.requestFocus();
+                    Toast.makeText(AdminAddEbooksActivity.this, "Please provide Subject of the book", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
@@ -219,7 +229,8 @@ public class AdminAddEbooksActivity extends AppCompatActivity {
         if(requestCode==12 && resultCode== Activity.RESULT_OK && data !=null && data.getData()!=null ){
             addebook.setEnabled(true);
             pdffilepath=data.getData();
-            bookname.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/")+1));
+
+            bookname.setText("Ebookname"+ String.valueOf(new Random().nextInt(1000)));
 
         }
     }

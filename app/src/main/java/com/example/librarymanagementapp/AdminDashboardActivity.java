@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class AdminDashboardActivity extends AppCompatActivity {
     private View users,books,reservations,ebooks,notifications,signout;
-    private TextView totalusers,totalbooks;
+    private TextView totalusers,totalbooks,totalEbooks;
 
 
     @Override
@@ -36,6 +36,7 @@ public class AdminDashboardActivity extends AppCompatActivity {
         signout=findViewById(R.id.signout);
         totalbooks=findViewById(R.id.totalbooks);
         totalusers=findViewById(R.id.totalusers);
+        totalEbooks=findViewById(R.id.totalEbooks);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -72,6 +73,20 @@ public class AdminDashboardActivity extends AppCompatActivity {
             }
         });
 
+        DatabaseReference ebookRef=database.getReference("ebooks");
+        ebookRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                int counter=(int) snapshot.getChildrenCount();
+                String ebookCount=String.valueOf(counter);
+                totalEbooks.setText("Ebooks count: "+ebookCount);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
 
 
 

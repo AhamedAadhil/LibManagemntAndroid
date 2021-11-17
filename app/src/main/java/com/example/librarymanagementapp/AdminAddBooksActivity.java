@@ -144,11 +144,13 @@ public class AdminAddBooksActivity extends AppCompatActivity {
 
 
                 if(TextUtils.isEmpty(Selected_category)||Selected_category==""||Selected_category==null||Selected_category==category_items[0]){
+                    Toast.makeText(AdminAddBooksActivity.this, "Please provide category of the book", Toast.LENGTH_SHORT).show();
                     category.requestFocus();
                     return;
                 }
 
                 if(TextUtils.isEmpty(Selected_subject)||Selected_subject==""||Selected_subject==null||Selected_subject==subject_items[0]){
+                    Toast.makeText(AdminAddBooksActivity.this, "Please provide Subject of the book", Toast.LENGTH_SHORT).show();
                     subject.requestFocus();
                     return;
                 }
