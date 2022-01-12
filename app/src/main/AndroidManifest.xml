@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.librarymanagementapp" >
+    package="com.example.librarymanagementapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -11,7 +11,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LibraryManagementApp" >
+        android:theme="@style/Theme.LibraryManagementApp">
+        <activity
+            android:name=".UserAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserFindbookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserReservationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserReturnsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserBorrowingActivity"
+            android:exported="false" />
         <activity
             android:name=".AdminAddEbooksActivity"
             android:exported="false" />
@@ -57,7 +75,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

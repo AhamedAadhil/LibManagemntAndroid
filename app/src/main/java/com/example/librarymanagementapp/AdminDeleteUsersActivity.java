@@ -60,13 +60,13 @@ public class AdminDeleteUsersActivity extends AppCompatActivity {
             role.setText(userModel.getRole());
         }
 
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //onDeleteClick();
-            }
-        });
-    }
+        //delete.setOnClickListener(new View.OnClickListener() {
+           // @Override
+          //  public void onClick(View view) {
+               // onDeleteClick();
+         //   }
+        //});
+   }
 
     public void onDeleteClick () {
 
