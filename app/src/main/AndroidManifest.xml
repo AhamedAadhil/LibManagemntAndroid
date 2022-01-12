@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LibraryManagementApp">
         <activity
+            android:name=".UserSearchResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivityLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserEditAccActivity"
+            android:exported="false" />
+        <activity
             android:name=".UserAccountActivity"
             android:exported="false" />
         <activity

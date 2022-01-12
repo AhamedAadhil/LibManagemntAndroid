@@ -4,75 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserFindbookActivity"
+    tools:context=".UserEditAccActivity"
     android:background="@drawable/gradientbackgrounduserborrow">
 
+    <Button
+        android:id="@+id/deleteAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:drawableStart="@drawable/ic_baseline_delete_forever_24"
+        android:text="Delete Account"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
 
     <Button
-        android:id="@+id/search"
+        android:id="@+id/update2"
         android:layout_width="150sp"
         android:layout_height="wrap_content"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="40dp"
         android:layout_weight="1"
         android:background="@drawable/custombuttonlogin"
-        android:backgroundTint="@color/white"
-        android:drawableStart="@drawable/ic_search"
+        android:backgroundTint="@color/green"
+        android:drawableStart="@drawable/ic_change"
         android:fontFamily="@font/poppins_semibold"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-        android:text="SEARCH"
+        android:text="UPDATE"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.149"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.998" />
 
     <TextView
-
-        android:id="@+id/textView13"
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Search Books"
-        android:textAlignment="center"
+        android:text="Edit Account"
         android:textColor="@color/white"
         android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-
-        android:id="@+id/textView19"
+        android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Search Method"
-        android:textAlignment="center"
+        android:text="User Name"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.314" />
+        app:layout_constraintVertical_bias="0.419" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Confirm Password"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
 
     <EditText
-        android:id="@+id/bookname2"
+        android:id="@+id/auther4"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:background="@drawable/custominput1"
-        android:drawableStart="@drawable/custom_bookname"
+        android:drawableStart="@drawable/custom_lock"
         android:ems="10"
         android:fontFamily="@font/poppins"
-        android:hint="Enter words"
+        android:hint="Password"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="15dp"
@@ -83,63 +122,73 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
 
-        app:layout_constraintHorizontal_bias="0.354"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565" />
+        app:layout_constraintVertical_bias="0.678" />
 
-    <TextView
-
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semibold"
-        android:text="hints to Search"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
-
-    <Spinner
-        android:id="@+id/category"
+    <EditText
+        android:id="@+id/auther2"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/style_spinner1"
+        android:background="@drawable/custominput1"
+        android:drawableStart="@drawable/customuser"
+        android:ems="10"
         android:fontFamily="@font/poppins"
+        android:hint="UserName"
+        android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-        android:spinnerMode="dropdown"
         android:textAlignment="center"
         android:textColor="@color/white"
+        android:textColorHint="#BDBDBD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
+
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.512" />
 
-    <com.github.ybq.android.spinkit.SpinKitView
-
-        android:id="@+id/spin_kit"
-        style="@style/SpinKitView.Large.Wave"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/auther5"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"
-        android:visibility="gone"
-        app:SpinKit_Color="#07F11E"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custominput1"
+        android:drawableStart="@drawable/custom_lock"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:hint="Re-enter password"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHint="#BDBDBD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.838" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_profilepic"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
